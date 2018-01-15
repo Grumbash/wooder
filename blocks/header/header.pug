@@ -1,0 +1,21 @@
+mixin header()
+	+b.HEADER.header
+		+b.UL.header-navigation
+			+e.LI.item
+				+e.A.itemA(href="index.html")
+					|Home
+			+e.LI.item
+				+e.A.itemA(href="about.html")
+					|About us
+			+e.LI.item#logo
+				+e.A.itemA(href="index.html")
+					+b.IMG.logo(src="img/logo/be_latte_logo.png")
+			+e.LI.item
+				+e.A.itemA(href="menu.html")
+					|Menu
+			+e.LI.item
+				+e.A.itemA(href="blog.html")
+					|Blog
+			+e.LI.item
+				+e.A.itemA(href="contact.html")
+					|Contact

@@ -1,0 +1,49 @@
+.footer
+	margin-top: 15px
+	height: 321px
+	background-color: #39312f
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+	&-social
+		display: flex
+		justify-content: center
+		&__icon
+			font-size: 24px
+			&:nth-child(2)
+				margin: 0 28px
+			&::before
+				transition: .3s ease
+				color: white
+			&:hover
+				&::before
+					color: #f5d76e
+					transition: .3s ease
+	&-info
+		display: flex
+		flex-direction: column
+		text-align: center
+		color: white
+
+		&__address
+			margin-top: 44px
+			font-size: 16px
+			font-weight: bold
+			line-height: 1.5
+			letter-spacing: 0.4px
+		&__copyright
+			color: #f5d76e
+			margin-top: 12px
+			font-weight: 900
+			font-size: 13.9px
+			font-weight: bold
+			line-height: 1.71
+			letter-spacing: 0.3px
+		&__author
+			text-transform: uppercase
+			margin-top: 28px
+			font-size: 12px
+			font-weight: 600
+			line-height: 2.0
+			letter-spacing: 0.3px

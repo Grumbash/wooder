@@ -1,0 +1,20 @@
+{
+  "name": "wooder",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Gleb Rossev"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Grumbash/wooder",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mdi": "^2.0.46"
+  }
+}

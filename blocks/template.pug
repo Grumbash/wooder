@@ -1,0 +1,43 @@
+include _assets/bemto/bemto
+- set_bemto_settings({ modifier: "--" })
+
+include head/head
+include header/header
+include main/main
+include slogan/slogan
+include menu/menu
+include testimonials/testimonials
+include location/location
+include footer/footer
+include head-line/head-line
+include about/about
+include contact/contact
+
+doctype html
+html(lang="ru")
+	block head
+		head
+			+head({
+				"title": "Woooder",
+				"author": "Vlad",
+				"description": "Workshop"
+			})
+			
+	+b.BODY.page
+		block header
+			+header()
+
+		block content
+
+		block footer
+			+footer()
+			
+		block vendors
+			// build:js js/vendor.js
+			script( src="libs/jquery/dist/jquery.min.js")
+			// endbuild
+
+		block scripts
+			// build:js js/main.js
+			script( src="js/main.js")
+			// endbuild

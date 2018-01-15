@@ -1,0 +1,57 @@
+mixin menu()
+	+b.MENU.menu
+		+e.H2.title menu
+		+e.UL.list
+			+e.LI.coffee
+				+e.IMG(src="img/-e-cup_of_coffee.png").menu-img
+				+e.DIV.img-prod 
+					+e.SPAN.text coffee
+				+e.UL.coffee-menu.__goods
+					+e.LI.coffee-list.item 
+						+e.SPAN.name_of_item Latte
+						+e.SPAN.price_of_item $3.00
+					+e.LI.coffee-list.item 
+						+e.SPAN.name_of_item Mocha
+						+e.SPAN.price_of_item $3.25
+					+e.LI.coffee-list.item 
+						+e.SPAN.name_of_item Expresso
+						+e.SPAN.price_of_item $3.75
+					+e.LI.coffee-list.item 
+						+e.SPAN.name_of_item Cappuccino
+						+e.SPAN.price_of_item $3.00
+			+e.LI.tea
+				+e.IMG(src="img/-e-tea _ealisticshots.png").menu-img
+				+e.DIV.img-prod 
+					+e.SPAN.text tea 
+				+e.UL.tea-menu.__goods
+					+e.LI.tea-list.item
+						+e.SPAN.name_of_item Iced tea
+						+e.SPAN.price_of_item $2.75
+					+e.LI.tea-list.item
+						+e.SPAN.name_of_item Cold brew
+						+e.SPAN.price_of_item $3.25
+					+e.LI.tea-list.item
+						+e.SPAN.name_of_item Jasmine green
+						+e.SPAN.price_of_item $3.75
+					+e.LI.tea-list.item
+						+e.SPAN.name_of_item Peppermint Herbal
+						+e.SPAN.price_of_item $3.00
+			+e.LI.desserts
+				+e.IMG(src="img/dessert.png").menu-img
+				+e.DIV.img-prod 
+					+e.SPAN.text dessert
+				+e.UL.desserts-menu.__goods
+					+e.LI.dessert-list.item
+						+e.SPAN.name_of_item Tiramisu
+						+e.SPAN.price_of_item $3.00
+					+e.LI.dessert-list.item
+						+e.SPAN.name_of_item Cheese cake
+						+e.SPAN.price_of_item $3.25
+					+e.LI.dessert-list.item
+						+e.SPAN.name_of_item Black forest
+						+e.SPAN.price_of_item $3.75
+					+e.LI.dessert-list.item
+						+e.SPAN.name_of_item Brownie
+						+e.SPAN.price_of_item $3.00
+		+e.BUTTON.see-menu see full menu
+		+e.IMG(src="img/icons/coffee_icon_divider.svg").img-coln

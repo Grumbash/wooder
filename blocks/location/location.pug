@@ -1,0 +1,30 @@
+mixin location
+	+b.location
+		+e.H2.title location
+		+e.wrapp
+			+e.info
+				+e.info-wrapp
+					+e.H3.subtitle location
+					+e.P.desc 
+						|Visit us at St. Thomas street 21st, suite 110, Santa Monica, California.
+					+e.H3.subtitle
+						|Hours
+					+e.P.desc
+						+e.UL.time
+							+e.LI.pretime
+								+e.SPAN.name
+									|Mon-Sat
+								+e.SPAN.time-work
+									|7am-8pm
+							+e.LI.pretime
+								+e.SPAN.name
+									|Sunday
+								+e.SPAN.time-work
+									|7am - 5pm
+					+e.H3.subtitle happy hour
+					+e.P.desc
+						+e.SPAN.name
+							|Mon - Fri:
+						+e.SPAN.time-work
+							|4pm - 6pm
+			+e.IMG(src="img/Map.jpg").map
